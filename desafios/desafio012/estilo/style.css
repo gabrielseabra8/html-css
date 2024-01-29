@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+header{
+    
+    color: white;
+    background-color: black;
+
+}
+
+header > h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 3em;
+    
+}
+
+header > p{
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+header > p > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+
+section{
+    padding-left: 30px;
+}
+section > p{
+    font-size: 2em;
+    line-height: 2em;
+    
+    margin-bottom: 50px;
+    padding: 20px;
+}
+.white{
+   background-color: white;
+
+}
+
+section.black > p{
+    display: inline-block;
+    color: white;
+    box-shadow: 1px 1px 7px black;
+    background-color: brown;
+    
+    
+    
+    
+}
