@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header{
+    background-color: lightsalmon;
+}
+
+header h1{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;   
+}
+
+nav{
+    background-color: rgb(218, 136, 103);
+    padding: 10px;
+}
+
+nav a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
