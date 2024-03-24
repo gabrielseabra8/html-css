@@ -7,23 +7,45 @@
     <style>
         *{
             font-family: Arial, Helvetica, sans-serif;
+            padding: 0px;
+            margin: 0px;
         }
 
+        .container{
+            height: 100vh;
+            width: 100vw;
+            position: relative;
+            background-color: brown;
+        }
        
+        .form{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: blue;
+            height: 300px;
+            width: 300px;
+            padding-top: 50px;
+        }
     </style>
 </head>
 <body>
     <h1>Meu primeiro Formulário</h1>
-    <form action="cadastro.php" autocomplete="off">
-        <label for="inome">
-            <p>Nome: 
-                <input type="text" name="nome" id="inome"> </p>
-        </label>
-        <label for="isobrenome">
-            <p>Sobrenome:
-                 <input type="text" name="sobrenome" id="isobrenome"></p>
-        </label>
-        <p><input type="submit" value="Enviar"></p>
-    </form>
+    <div class="container">
+        <div class="form">
+            <form action="cadastro.php" autocomplete="off">
+                <label for="inome">
+                    <p>Nome:
+                        <input type="text" name="nome" id="inome"> </p><br>
+                </label>
+                <label for="isobrenome">
+                    <p>Sobrenome:
+                         <input type="text" name="sobrenome" id="isobrenome"></p>
+                </label>
+                <p><input type="submit" value="Enviar"></p>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
