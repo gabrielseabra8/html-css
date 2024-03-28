@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <style>
+
+        *{
+            padding: 0px;
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        
+        
+        .container{
+            height: 100vh;
+            background-image: linear-gradient(to right, #AA0FFF, #F805FF);
+            position: relative;
+        }
+
+        .form{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: 1px solid black;
+            border-radius: 10px;
+            padding: 20px;
+            
+        }
+
+        
+        .form > h1{
+           padding: 10px;
+           color: white;
+           ;
+        }
+
+
+        .input{
+            border-radius: 10px;
+            height: 20px;
+            border: none;
+        }
+
+        .email{
+            padding: 10px;
+            font-weight: bold;
+        }
+
+        .senha{
+            padding: 10px;
+            font-weight: bold;
+        }
+
+        .button{
+            padding: 10px;
+        }
+
+        .inb{
+            padding: 10px;
+            height: 40px;
+            width: 90px;
+            font-weight: bold;
+            border-radius: 10px;
+        }       
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        
+        <div class="form">
+            <h1>LOGIN</h1>
+            <form action="cadastro.php" method="post" autocomplete="on">
+                <div class="email">
+                    <label for="imail">Email: </label>
+                    <input type="email" name="email" id="imail" class="input" required>
+                </div>
+                <div class="senha">
+                    <label for="isen">Senha: </label>
+                    <input type="password" name="senha" id="isen" class="input" required minlength="8" >
+                </div>
+                <div class="button">
+                    <input type="submit" value="Entrar" class="inb">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
