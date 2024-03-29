@@ -10,7 +10,7 @@
 }
 
 body{
-    height: 100vh;
+    height: 100%;
     font-size: 100%;
     background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
 
@@ -87,4 +87,46 @@ body{
     font-size: 24px;
     box-shadow: 4px 5px 4px 0px #00000040;
 
+}
+
+.conteudo-principal-imagem{
+    height: 430px;
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo{
+    font-family: "Righteous", sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 24px;
+    padding-top: 48px;
+    border-top: 0.4px solid #FFF2E7
+}
+
+.conteudo-secundario-paragrafo{
+    font-family: "Sarala", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFF2E7;
+}
+
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+    display: block;
+    margin: 0 auto;
+}
+
+.rodape-imagem{
+    height: 48px;
+    display: block;
+    margin: auto;
 }
